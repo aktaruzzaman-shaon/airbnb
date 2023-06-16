@@ -1,5 +1,4 @@
 import React from 'react';
-import airbnb from '../../Asset/airbnblogo.png'
 import { FaAirbnb } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 import { FaSistrix } from "react-icons/fa";
