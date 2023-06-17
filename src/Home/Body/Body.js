@@ -12,7 +12,7 @@ const Body = () => {
     return (
         <div>
             <div className="container">
-                <div  className='row  d-flex '>
+                <div className='row  d-flex '>
                     <div className="col-md-8 col-lg-8 col-sm-12">
 
                         <h4 className='text-start'>Room in a rental unit hosted by Sagrario</h4>
@@ -276,17 +276,15 @@ const Body = () => {
                             <div className='col '><Calendar className="border-0 ps-3 "></Calendar></div>
                             <div className='col ps-2 d-none d-md-block d-lg-block'><Calendar className="border-0 "></Calendar></div>
                         </div>
-
-
-
                     </div>
 
                     <div className="col-md-4  col-lg-4 d-none d-md-block d-lg-block style-body-right ">
                         <div class="card" >
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title ">$37 night</h5>
+                                <p class="card-text">4.87 ·
+                                    171 review</p>
+                                <a href="#" class="btn btn-primary">Check Availablity</a>
                             </div>
                         </div>
                     </div>

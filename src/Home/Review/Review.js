@@ -1,5 +1,4 @@
 import React from 'react';
-import BannerImg from '../../Asset/BannerImg.PNG'
 
 const Review = () => {
     return (
@@ -11,7 +10,6 @@ const Review = () => {
                 <div className="col">
                     <div>
                         <div>
-                            <img src={BannerImg} alt="" className='img-fluid d-inline h-25 w-25    rounded-circle' />
                             <h4>Natasha</h4>
                             <p>May 2023</p>
                         </div>

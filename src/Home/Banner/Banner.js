@@ -11,7 +11,7 @@ const Banner = () => {
                 <h3 className='text-start'>Enjoy historic Valencia and close to the beach.</h3>
                 <div className='d-flex flex-row row'>
                     <div className='col-lg-6 col-sm-12 justify-content-start'>
-                        <div className='justify-content-start'>
+                        <div className='d-flex justify-content-start'>
                             <FaStar></FaStar>4.87 <a href="" className='text-black'>171 reviews . </a>Superhost <a href="" className='text-black'>Valencia , Spain</a>
                             <FaChevronCircleDown></FaChevronCircleDown>
                         </div>
