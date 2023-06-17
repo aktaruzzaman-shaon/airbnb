@@ -1,0 +1,6 @@
+.style-body-right {
+    position: sticky;
+    top: 50px;
+    text-align: right;
+    align-self: start;
+}

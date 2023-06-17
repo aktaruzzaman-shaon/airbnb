@@ -4,6 +4,7 @@ import { FaRestroom } from "react-icons/fa";
 import { FaCouch } from "react-icons/fa";
 import { FaDharmachakra } from "react-icons/fa";
 import '../../../node_modules/react-calendar/dist/Calendar.css';
+import './Body.css'
 
 
 
@@ -11,7 +12,7 @@ const Body = () => {
     return (
         <div>
             <div className="container">
-                <div className='row d-flex '>
+                <div  className='row  d-flex '>
                     <div className="col-md-8 col-lg-8 col-sm-12">
 
                         <h4 className='text-start'>Room in a rental unit hosted by Sagrario</h4>
@@ -280,14 +281,13 @@ const Body = () => {
 
                     </div>
 
-
-                    <div className="col-md-4 col-lg-4 d-none d-md-block d-lg-block ">
+                    <div className="col-md-4  col-lg-4 d-none d-md-block d-lg-block style-body-right ">
                         <div class="card" >
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                                </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
                         </div>
                     </div>
                 </div>
